@@ -1,8 +1,23 @@
+module.exports = {
+  index: function(){
+    console.log('index');
+  },
+  new: function(){
+    console.log('new');
+  },
+  create: function(){
 
-/*
- * GET users listing.
- */
+  },
+  show: function(){
+    console.log('show');
+  },
+  edit: function(){
+    console.log('edit');
+  },
+  update: function(){
 
-exports.list = function(req, res){
-  res.send("respond with a resource");
+  },
+  destroy: function(){
+
+  }
 };
