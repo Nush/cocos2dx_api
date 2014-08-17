@@ -29,7 +29,7 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
-app.resource('users',require('./routes/user'),{id: 'id'});
+app.resource('tests',require('./routes/test'),{data: 'data'});
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
